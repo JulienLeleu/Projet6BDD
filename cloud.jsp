@@ -21,7 +21,7 @@
 	</head>
 	<body>
 		<h1>Upload</h1>
-		<form method="POST" action="upload.jsp" enctype="multipart/form-data"/>
+		<form method="POST" action="servlet/Upload" enctype="multipart/form-data"/>
 			<input type="FILE" name="file"/>
 			<input type="SUBMIT" value="Upload" />
 		</form>		
